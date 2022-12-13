@@ -18,4 +18,7 @@ public class Customer {
 	public String showCustomerInfo() {
 		return customerName + " 님의 등급은 " + customerGrade + "이며, 보너스 포인트는 " + "입니다!"; 
 	}
+	public String setCustomerGrade(String grade) {
+		return customerGrade = grade;
+	}
 }

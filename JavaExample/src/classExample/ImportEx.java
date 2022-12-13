@@ -9,7 +9,7 @@ public class ImportEx {
 //		ProgramInfo pi = new ProgramInfo("외부클래스 실습", "차재건","1.0");
 //		pi.print();
 		
-		ProgramInfo.print("외부클래스 실습", "차재건", "1.0");
+		ProgramInfo.print("외부클래스 실습", "차재건", 1.0);
 	}
 }
 
