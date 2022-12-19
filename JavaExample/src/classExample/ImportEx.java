@@ -12,5 +12,3 @@ public class ImportEx {
 		ProgramInfo.print("외부클래스 실습", "차재건", 1.0);
 	}
 }
-
- 
