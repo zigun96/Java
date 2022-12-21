@@ -1,11 +1,23 @@
 package arrayLIstEx;
 
-public class Address {
+import java.io.Serializable;
+
+public class Address implements Serializable {
 	private String name;
 	private String phone;
-	Address(String name, String phone){
+	private String email;
+	
+	Address(String name, String phone, String email){
 		this.name = name;
 		this.phone = phone;
+		this.email = email;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public String getName() {
 		return name;
